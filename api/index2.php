@@ -106,7 +106,7 @@ $menuIdArray = array_values(array_unique($menuIdArray));
                                 </tr>
                                 <?php foreach ($menuIdArray as $menuId) { 
                                     $td = 0;
-                                    $x = 1;
+                                    $x = 0;
                                     while($x <= 12) {
                                         $isTot = false;
                                         foreach ($data['data'] as $item) { 
@@ -130,9 +130,9 @@ $menuIdArray = array_values(array_unique($menuIdArray));
                                             if($isTot == false){
                                                 echo '<td style="text-align: right;">0</td>';
                                             }
-                                            $x++;
                                         }
                                         // echo $x;
+                                            $x++;
 
                                     } 
                                     echo "</tr>";
@@ -142,7 +142,7 @@ $menuIdArray = array_values(array_unique($menuIdArray));
                                 </tr>
                                 <?php foreach ($menuIdArray as $menuId) { 
                                     $td = 0;
-                                    $x = 1;
+                                    $x = 0;
                                     while($x <= 12) {
                                         $isTot = false;
                                         foreach ($data['data'] as $item) { 
@@ -166,9 +166,9 @@ $menuIdArray = array_values(array_unique($menuIdArray));
                                             if($isTot == false){
                                                 echo '<td style="text-align: right;">0</td>';
                                             }
-                                            $x++;
                                         }
                                         // echo $x;
+                                        $x++;
 
                                     } 
                                     echo "</tr>";
