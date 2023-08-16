@@ -1,0 +1,31 @@
+GET http://localhost/api/mahasiswa
+
+###
+GET http://localhost/api/mahasiswa/1
+
+###
+GET http://localhost/api/mahasiswa/2022
+
+
+###
+POST http://localhost/api/mahasiswa/
+Content-Type: application/x-www-form-urlencoded
+
+nim=1234
+&nama=dana
+&jk=L
+&alamat=malang
+&jurusan=PTI
+
+###
+POST http://localhost/api/mahasiswa/3
+Content-Type: application/x-www-form-urlencoded
+
+nim=1234
+&nama=dana
+&jk=L
+&alamat=malang
+&jurusan=PTI
+
+###
+DELETE http://localhost/api/mahasiswa/3
